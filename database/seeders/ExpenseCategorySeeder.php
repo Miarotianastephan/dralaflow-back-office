@@ -9,6 +9,6 @@ class ExpenseCategorySeeder extends Seeder
 {
     public function run(): void
     {
-        ExpenseCategory::factory()->count(10)->create();
+        ExpenseCategory::factory()->count(3)->create();
     }
 }

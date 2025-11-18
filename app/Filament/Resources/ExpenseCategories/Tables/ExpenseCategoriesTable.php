@@ -23,9 +23,10 @@ class ExpenseCategoriesTable
                     ->searchable(),
                 TextColumn::make('parent_id')
                     ->numeric()
+                    ->hidden(true)
                     ->sortable(),
                 IconColumn::make('is_active')
-                    ->boolean(),
+                    ->boolean()->label('Actif'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
