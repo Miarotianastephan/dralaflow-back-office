@@ -18,10 +18,10 @@ class InfoPage extends Page
     protected string $view = 'filament.pages.info-page';
     // protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-cog';
 
-    protected function getHeaderWidgets(): array
-    {
-        return [
-            CategoryWidget::class
-        ];
-    }
+    // protected function getHeaderWidgets(): array
+    // {
+    //     return [
+    //         CategoryWidget::class
+    //     ];
+    // }
 }
